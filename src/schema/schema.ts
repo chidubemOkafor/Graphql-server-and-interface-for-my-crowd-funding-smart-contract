@@ -15,7 +15,6 @@ export const typeDefs = `#graphql
         name: String!
         email: String!
         address: String!
-        funding: [Funding!]
     }
 
     type ContributionMade {
