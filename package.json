@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chidubem",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "tsx": "^4.10.5",
+  "typescript": "^5.0.0",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "dotenv": "^16.4.5",
+    "ethers": "6.13.4",
+    "graphql": "^16.9.0",
+    "mongoose": "^8.8.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2"
+  }
+}
